@@ -1,0 +1,24 @@
+p{
+    font-size: 63ox;
+    color: burlywood;
+}
+
+.art1 {
+    color:crimson;
+}
+.art2 {
+    color:antiquewhite;
+}
+.art3 {
+    color: darkolivegreen;
+}
+h2,h1 {
+    color: aqua;
+}
+#art4 {
+    font-style:italic;
+    color:darkgoldenrod;
+}
+.hello {
+    color:crimson;
+}
