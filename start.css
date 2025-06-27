@@ -5,3 +5,6 @@ h1 {
 span {
     color: aquamarine;
 }
+.link{
+    text-decoration: none;
+}

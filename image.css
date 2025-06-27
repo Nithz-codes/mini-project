@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display:block;
+}
+body{
+    min-height: 100vh; /* 100vh units is same as the split screen chrome tab height */
+    background-color: aliceblue;
+    background-image: url(""),linear-gradient(to right,steelblue,rebeccapurple,purple,rgba(4, 103, 189, 0.585)); /* this is used to add gradiant to the web page background 
+    valeus are (to position,color,color) can add more colours in the colour section values */
+    /* so if we add the image we wanted all the values are in the corresponding order namely first comes the img and next comes the gradiant colours
+    for exaple background-repeat: repeat-y(for the img) no-repeat(for the linera gradiant) */
+}
+
+.container{
+    background-color:powderblue;
+    background-image: url('background2.jpg');
+    /* background-color: hsl(7, 90%, 34%);  *//* the filter effect is not working chekc out later */
+    background-size: cover;
+    background-position: center center;/*in this field you can choose which part of the img shuld we show on the background 
+    it has two values x and y respectively */
+
+}
+
+.hero{
+    border-bottom: 2px solid #333;  
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+   /*  background-color:powderblue;
+    background-image: url('background.jpg');  according to the course we are taking it inside of the container because we can get the filter effect 
+    if you want uncomment and the changes*/ 
+
+
+    /* background-repeat: no-repeat;  this value is added so that the pattern is not repeated the default value is
+    reapeat and the values can also be repeat-x and repeat-y*/
+    /* if we use a very large picture then we have to use background-size:cover/contain;
+    cover is used to cover the entire widht provided and it generally used and contain just contain the 
+    pic ie(repeat two times liek that) */
+
+}
+
+
+h1{
+    font-size:5rem ;
+    color:wheat;
+    text-shadow:5px 5px 5px black; /* the text shadow is used to make the text pop out a bit in the webpage
+    the text-shadow takes value respectively is (x y blur color); */
+    /* background-color: hsla(30, 100%, 88%, 0.321);
+    padding: 0.7rem;
+    border-radius: 10px; */
+    
+}
+.nowrap{
+    white-space: nowrap; /* the nowrap is nothing but consider a paragraph each sentence in one below the other
+    then the value would be (white-space:normal)  if we want the paragraph one below the other lines in the same line we use
+    (white-space:nowrap) it is just telling that while resizing in the dev tools dont make the text responsive like
+    but make it stay as i have given it can be done using nowrap */
+}
+.offscreen{
+    position: absolute;
+    left: -100000px;
+}
+
+.profilepic {
+    /* border: 5px solid rebeccapurple;
+    width: 51%; this code represents how to change the max width of the container so that we can use it efficienlty */
+    width: 31%;
+    
+    
+    
+}
+.profilepic img{
+    width: 100%;
+    height: auto;
+    min-width: 100px; /* this is given becoz we dont want the img to go smallest the img will be 100px if we go least of the 
+    minimization thats it */
+    border: 5px double gray;
+    border-radius: 20%;
+}
+
+
+.example{ /* it is the container in whcih the img is being placed section is a block level elemtn
+    so only the below .example img when set to width 25% it is defined as the width of the container */
+    margin-top: 0.5rem;
+    padding-left: 20px;
+    border:2px solid red;
+}
+.example img{
+    width: 25%; /* there is a thing here if you have not set width and height in html code in place of the img tag
+    then you dont have to specify height value(only width value is required becoz it will assign auto for the height value) like below (then y we have inserted the height values is because we have 
+    given the width and height values for the img in html so if we dont give the height value the img will not be responsive so only we are giving the height values as :auto
+    so that the browser it self make it resposive for us */
+    height: auto; /* after this change we can see a huge difference in the img responive height */
+
+    /* the next problem in the img is it is a inline elemnt and so it has a tiny gap below the img in order to remove the gap make the img as block level element
+    using the disply:block; after this it is converted into the block element and the gap is removed */
+
+}
+
+/* .hero img{
+    width: 25%;
+    
+} */ /* as i said before in this code snippet i have not specified the widht and height of the image in the html
+ and i have given only the width of  25% and the profile pic image is same as the previous pattern image but for now iam going to follow as per the course */
+
+
+    

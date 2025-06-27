@@ -1,10 +1,14 @@
-p{
+/*rem value is 1rem =16 px; */
+/*default line heigt is 1.2 */
+
+.p1{
     font-size: 63ox;
     color: burlywood;
 }
 
 .art1 {
     color:crimson;
+    width: 40ch;
 }
 .art2 {
     color:antiquewhite;
@@ -13,6 +17,11 @@ p{
     color: darkolivegreen;
 }
 h2,h1 {
+    
+    border-style: double;
+    padding: 10px;
+    border-width: 10px;
+    border-color: red;
     color: aqua;
 }
 #art4 {
@@ -21,4 +30,311 @@ h2,h1 {
 }
 .hello {
     color:crimson;
+}
+
+.circle{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: black;
+
+}
+.circle2{
+    margin: auto;
+    background-color:black;
+    width:100px;
+    height: 100px;
+    border:10px solid red;
+    border-radius: 50%;
+}
+.txtalign
+{
+    color:darkolivegreen;
+    font-size: 2rem;
+    text-align:justify ;
+    text-indent:2em;
+    line-height:1.5;
+    /*letter-spacing:1em; generally akward wanna see result take away the comment and see the result*/
+    /*word-spacing:0.5em;  spaces btw words nothing more*/
+    font-weight:bold;
+    font-style:italic;
+    /*font-family:cursive; it is used for font */
+    /*when there is space between the 'font thing' '' quotes should be added to tackle the space btwn them*/
+    /*if you see any font on internet go to google font and identify and get the name and copy the link to use the font-style but it will take more time to load if we use font from google*/
+
+
+}
+.stylink{
+    /*text-decoration:none; take this to not see underline on the link available*/
+    /*to chnge the color of the visited link by default it is puprle but to change to custorm we need psuedo class(the current state the variable is in)
+    to chose pseudo class use (eg: a:) after : we have to select what pesudo class we are selecting*/
+    text-decoration:line-through;
+
+
+}
+/* pesudo class*/ .stylink:visited {
+    color:red;
+
+}
+.stylink:hover,.stylink:focus /*we can also use focus pesudo class for when using tab so the link will be outlined in box and the colour willl be customed using the foucs pesudo class*/{
+    color:darkred; /*use specificity calculator for finding specificity  of the class or some tags */
+
+}
+ 
+ol{
+    /*default value for the ol is list-style-type:decimal */
+    list-style-type:lower-alpha
+}
+
+ul{
+    text-align:center;
+    list-style-image: url();
+    list-style-position:inside;
+    /*now specify the path to the image inside url function and image is applied */
+    /* text-align:center; this makes the text of the list to the center and the bullets to the left in default pos */
+    /* list-style-position: inside; this line makes the bullets also alinged to the correecet position same as the text in list */
+
+}
+ul li:nth-child(3)/*i this this is n-1 check for more detatils about the nth-child and */ {
+    /*note that the ul li selcet the ul under that li chekc it */
+    color: red;
+}
+
+ul li::marker /*this is a psuedo element not a psudeo class this is used for the decoration of the bullet */{
+    /*specifying the ::marker changes all the bullets including ol so use specificity like ul li::marker
+    or ul ::marker: so that only ul is changed not ol */
+    list-style-position:inside;
+    color: red;
+
+}
+ul li:nth-child(2)::marker{
+    content: "Do this  >> ";
+}
+
+main p{
+    background-color:aqua;
+}
+.oppsite{
+    background-color:black;
+    color: beige; /*so for inline elements margin-top and height cannot be added */
+    /* so we are using a special element called inline-block; which is a hybrid consist of inline as well as block attributes */
+
+    /*"""" inline-block is used when to turn a link into a button """" */
+}
+/* another important this is if a element is block level it always takes to the next line
+but if a element is inline it does not take a new line */
+
+/* portfolio like menu bar navigation like struture */
+ main ol{
+    text-align: right;
+    list-style-type:none; 
+    background-color: black;
+}
+main a{
+    text-decoration:none;
+    color: beige;
+    font-size: 3rem;
+}
+main li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding:0.5rem;
+    
+    
+}
+main a:hover,a:focus {
+    text-decoration: underline;
+}
+
+
+.sample{
+    background-color: black;
+    color: chocolate;
+    text-align: right;
+    
+}
+.flp{
+    line-height: 2rem;
+}
+.block{
+    width:30vw;
+    height:30vw;
+    background-color:black;
+    color:aliceblue;
+    padding:1rem;
+
+}
+.left{ /*we can also have more than one class in a single class eg: block left this is a single class with sub class */
+    float: left; /*float is nothing but a div element or something that float on a block level element or something
+    */
+    margin-right: 1rem;
+}
+.right{
+    float:right;
+    margin-left:1rem;
+}
+.clear{
+    clear:both; /*this clear is used to clear the float elemt like br in html
+    just clear the section and make the page like organised */ 
+    /*  """initialize the clear where you need the space """ */
+    /* see html code where div tag is given as clear that is the old method told in yt */
+
+}
+section{
+    
+    background-color: bisque;
+    border: 1px solid #333;
+    padding: 1rem;  /*so now the problem is when we have a short para we can only get the bgcolor
+    with the text not the entire box element */ 
+    /* the solutin is overflow:auto */
+    overflow: auto; /* so now the box bgcolor is applied entirely to also the box */
+    /* ^ the aboe is old mehtod */
+    display:flow-root; /*this is the new method acc to indian */
+}
+.nowrap{
+    text-align:center;
+    font-size:3rem;
+    color:#333; /*so now the quote is displayed the problem is when we resize the window it breaks the dude in two line
+    in order to make them stay in same line we are using a property called white-space:nowrap; it should be applied with inside of span 
+    element */
+    white-space:nowrap;
+
+}
+/* css position */
+/* for the css postion seperate html and css files are being created so learn from it */
+/* types are absolute relative fixed and sticky
+now to use absolute position it will be displyed by no changes bcoz we have to give value top,bottom,right,left any one for the change
+important to note the absolute position is based on the browser window if any value is give as (top:0;)the box is positioned based on the browser windows
+*/
+/*if we give the value (position:relative;) to the ancestor of the absolute box it is now positioned based on the ancestor box or value
+/* for better understanding if the absolute position box is not having a relative positon parent or some class it is positoned 
+based on the browser window not to the relative parent (if not relative position isgiven )*/
+/* if one or more relative ancestors are present it chooses one which is closer to the box 
+and the default values for the box position is top 0; left 0; */
+.outerbox{
+    border:2px dashed #333;
+    padding: 3em;   
+    position: relative; 
+}
+.innerbox{
+    padding:2em;
+    border: 3px solid blue ;
+    position: relative;
+}
+.absolute p{
+    color:black;
+    background-color: aqua;
+    height: 15vh;
+    width: 15vh;
+    position:absolute ;
+    top:0;
+    left:0;
+    
+    
+    
+}
+.relative p{
+    color: white;
+    background-color: red;
+    height: 15vh;
+    width: 15vh;
+    position: relative;
+}
+.fixed p{
+    color: white;
+    background-color: green;
+    height:15vh;
+    width: 15vh;
+    position: fixed;
+}
+.sticky p{
+    color: white;
+    background-color: black;
+    height: 15vh;
+    width: 15vh;
+    position: sticky;
+}  /* do the position chapter in a seperate html and css doucments */
+.flex{/* in order to make flex boxes used diplay:flex (i think so make sure) */
+    max-height:800px;
+    max-width:1600px;
+    border:2px solid black;
+    display: flex; /* after applying this line the div elemets became all sideways not in one below other
+    but it became like one side of the other  */
+    /* if max width is more than the div content it alings with the first border and there is space left
+    default value is flex-start(starts from the beginning)
+    flex-end (ends at the last and at the front gap is created 
+    justify-content:center make the boxes in center*/
+    gap:1rem;
+
+    /* different values for the justify content(it is used for the horizontal manipulation of items) like margin i think so */
+    /* justify-content: flex-start,flex-end,center,space-around(make even space aroudn the container
+    with some space in the start and end),space-around(the space at the end and beginning is eliminated),space-evenly(even space everywhere
+    start end and inbtwn) */
+
+    /* align-items is used to manipulate items in vertical ways */
+    /* the values for the align-items(flex-start,flex-end,center) */
+    align-items: center; 
+    /* there is another attribute called the flex-direction which says in which direction the flex should be shown */
+    flex-direction: column; /* column reverse can also be used as value just the numbers are in reveres order */
+
+    /* after this line if we cahnge the align items it no longer changes the items in vertical
+    because it is like realted to the current direction of the flex items */
+
+    flex-flow: row wrap; /* the wrap attribute is used when the items are overflowing so using wrap we can make them adjust as we resize the browser */
+    
+    /* instead of using the flex-wrap(used to wrap the items so that the scalability of the webpage
+    is increased insted of using the flex-wrap:wrap we are using the shorthand for the flex-flow:row(flex-dircetion:) wrap(flex-wrap;) */
+    /* there are two more elements in the flex box */
+    /* flex-grow:,flex-shrink:  (as the name suggest but it has to be selected using psudo class for the better results
+    we can set absolute values like 2,3,4 if we set the value for the nth-child the respecive change will occur when we 
+    shrink or grow our web page*/
+    /* now for the shorthand of the flex-grow,flex-shrink,flex-basis 
+    is flex: values are respective*/
+
+}  
+.box{
+    min-width: 100px;
+    min-height:100px;
+    background-color: #333;
+    color: white;
+    margin:5px;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.container{ /* the display:grid is used in the whole tag in which the sub tages are placed */
+    display: grid;
+    grid-auto-flow: column; /*it is used to set or chagne the value of the gird default values is(row) if we chnage the value are column then we can see th
+    change */
+    /* there is also a new measurement unit for the grid display it is fr(fractions) */
+    /* row-gap is used to define gap inbtw row column-gap is used to define gap inbtw columns*/
+    /* it can also be shorthanded by using only gap: x y the x is row value and the y is column value if you wnat to 
+    give different vlues for the row and column use this approach or else use gap:some value for this they both have same values */ 
+
+    /* i dont know what to do which css grid but ill practice */
+    min-height: 20vh;
+    gap:1rem;
+    /* in order to make the template for the grid use grid-template-row/column: "give values"(i.e:row/column for manipulation) */
+   /*  grid-template-columns:repeat(1,1fr) ;  remove cmt to see the changes*/ 
+                                   /*^this is not the row it is saying how many times to repaet*/  
+    grid-template-rows: 1fr;
+    
+}
+
+.cont{
+    background-color: #333;
+    color:white;
+}
+.cont:nth-child(1){
+    background-color: blue;
+    /* in order to extend a single gird in a grid structre use the following */
+    /* it can also be used to change the positon of the grid based onthe start and end values specified*/
+    grid-column-start:2;
+    grid-column-end: 4;/* the same can be done for the row also */
+    /* even this can be shorthanded by using the grid-column: 2(start) / 4(end)  */
+    grid-column:2 /4;
+    /*in order to align the content inside the grid we can use align-content:x (as we know it is used for aligning content vertically)
+    and anothr property is justify-content:y (used to align item horizontally) using these we can align the items inside the grid 
+    but to shorthand it we can use place-content: x y (align and justify respectively) if givne one value the it is common for both*/
+
+    grid-template:repeat(9,1fr)
 }
