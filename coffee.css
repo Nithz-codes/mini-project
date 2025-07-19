@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3E151D;
+}
+.container{
+    height: 110vh;
+    background-color:#3E151D;
+    
+}
+.webhead{
+    color: white;
+    font-size: 40px;
+}
+.topsection{
+    margin-right: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navthings{
+    display: flex;
+    gap: 2rem;
+    margin-top: 15px;
+    
+    
+}
+.navthings p{
+   
+    color: white;
+    font-size: 20px;
+}
+.navthings p a{
+    color: white;
+    text-decoration: none;
+}
+.navthings p a:hover{
+    text-decoration:underline;
+}
+
+.bestcof{
+  margin-top: 200px;
+  margin-left: 30px;
+}
+.coffee p{
+    color: #FB9C3E;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+.heroimg{
+    display: flex;
+    justify-content: end;
+}
+.slogan{
+    display: inline;
+}
+
+.slogan p{
+    align-self: center;
+    margin-top: 20px;
+    padding-left:30px ;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+
+.cofimg img{
+   display: flex;
+    height: 600px;
+    width: 600px;
+    
+    
+}
