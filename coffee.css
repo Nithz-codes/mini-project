@@ -5,9 +5,10 @@
 }
 body{
     background-color: #3E151D;
+    height: 100hv;
 }
 .container{
-    height: 110vh;
+    height: 100vh;
     background-color:#3E151D;
     
 }
@@ -41,27 +42,40 @@ body{
 .navthings p a:hover{
     text-decoration:underline;
 }
-
-.bestcof{
+.midsection{
+    display: flex;
+    gap: 15rem;
+}
+.cofimg img{
+    margin-top: 3rem;
+    height: 650px;
+    width: 650px;
+    
+}
+.bst{
   margin-top: 200px;
   margin-left: 30px;
+  color: #FB9C3E;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
 }
-.coffee p{
+/* .coffee p{
     color: #FB9C3E;
     font-style: italic;
     font-weight: bold;
     font-size: 3rem;
 
-}
-.heroimg{
+} */
+/* .heroimg{
     display: flex;
     justify-content: end;
-}
-.slogan{
+} */
+/* .slogan{
     display: inline;
-}
+} */
 
-.slogan p{
+.Make{
     align-self: center;
     margin-top: 20px;
     padding-left:30px ;
@@ -70,14 +84,27 @@ body{
     font-weight: bolder;
 
 }
-.welcome{
+.welc{
     padding:1.5em ;
     line-height: 2rem;
     color: white;
     font-size: 25px;
 }
-.contact{
+.buttons{
     display: flex;
+}
+.contact{
+    color: white;
+    padding-left: 20px;
+    height:40px;
+    width: 200px;
+    font-size: 2em;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 40%;
+   
+    
+    
 }
 .order{
     padding-left: 10px ;
@@ -89,24 +116,13 @@ body{
     font-size: 2em ;
     border-radius: 40%;
 }
-.ctus{
-    color: white;
-    padding-left: 20px;
-    height:40px;
-    width: 200px;
-    font-size: 2em;
-    align-self: center;
-    border: 1px solid white;
-    border-radius: 40%;
-}
+
 .cofcont{
     display: flex;
 }
 
 .cofimg img{
     justify-content: end;
-    height: 600px;
-    width: 600px;
     
     
 }
