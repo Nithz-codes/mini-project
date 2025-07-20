@@ -70,12 +70,43 @@ body{
     font-weight: bolder;
 
 }
+.welcome{
+    padding:1.5em ;
+    line-height: 2rem;
+    color: white;
+    font-size: 25px;
+}
+.contact{
+    display: flex;
+}
+.order{
+    padding-left: 10px ;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #FB9C3E;
+    margin: 2rem;
+    background-color: #FB9C3E;
+    font-size: 2em ;
+    border-radius: 40%;
+}
+.ctus{
+    color: white;
+    padding-left: 20px;
+    height:40px;
+    width: 200px;
+    font-size: 2em;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 40%;
+}
+.cofcont{
+    display: flex;
+}
 
 .cofimg img{
-   display: flex;
+    justify-content: end;
     height: 600px;
     width: 600px;
     
     
 }
-/* faffaffafafaf */
