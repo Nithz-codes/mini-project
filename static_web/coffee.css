@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3E151D;
+    height: 100hv;
+}
+.container{
+    height: 100vh;
+    background-color:#3E151D;
+    
+}
+.webhead{
+    color: white;
+    font-size: 40px;
+}
+.topsection{
+    margin-right: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navthings{
+    display: flex;
+    gap: 2rem;
+    margin-top: 15px;
+    
+    
+}
+.navthings p{
+   
+    color: white;
+    font-size: 20px;
+}
+.navthings p a{
+    color: white;
+    text-decoration: none;
+}
+.navthings p a:hover{
+    text-decoration:underline;
+}
+.midsection{
+    display: flex;
+    gap: 15rem;
+}
+.cofimg img{
+    margin-top: 3rem;
+    height: 650px;
+    width: 650px;
+    
+}
+.bst{
+  margin-top: 200px;
+  margin-left: 30px;
+  color: #FB9C3E;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+}
+/* .coffee p{
+    color: #FB9C3E;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+
+} */
+/* .heroimg{
+    display: flex;
+    justify-content: end;
+} */
+/* .slogan{
+    display: inline;
+} */
+
+.Make{
+    align-self: center;
+    margin-top: 20px;
+    padding-left:30px ;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+.welc{
+    padding:1.5em ;
+    line-height: 2rem;
+    color: white;
+    font-size: 25px;
+}
+.buttons{
+    display: flex;
+}
+.contact{
+    color: white;
+    padding-left: 20px;
+    height:40px;
+    width: 200px;
+    font-size: 2em;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 40%;
+   
+    
+    
+}
+.order{
+    padding-left: 10px ;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #FB9C3E;
+    margin: 2rem;
+    background-color: #FB9C3E;
+    font-size: 2em ;
+    border-radius: 40%;
+}
+
+.cofcont{
+    display: flex;
+}
+
+.cofimg img{
+    justify-content: end;
+    
+    
+}

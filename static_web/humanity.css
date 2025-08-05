@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    background-color: #204148;
+    background-image:  url("chariteam\ 2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container2{
+    height: 100vh;
+    background-color: hsla(191, 37%, 20%, 0.767);
+}
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.chrhead{
+    margin-top: 1rem;
+}
+.navthings{
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.navthings option{
+    border: none;
+}
+.chclr{
+    color: #FB7013;
+    font-size: 3rem;
+}
+.heading{
+    color:black;
+    font-size: 3rem;
+}
+.orgclr{
+    color: #FB7013;
+}
+.donate{
+    color: #FB7013;
+    border: 1px solid #FB7013;
+    
+}
+.hero{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herocont{
+    padding-top: 50px;
+    max-width: 480px;
+}
+.herocont .big{
+    color: white;
+    font-size: 40px;
+    font-family: 'Saira',sans-serif;
+    font-weight: 600;
+    justify-self:center;
+    align-self: flex-end;
+    line-height: 50px;
+}
+.small{
+    color: white;
+    font-weight: 100;
+}
+.org{
+    display: flex;
+    justify-content: center;
+}
+.orgbtn{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FB7013;
+}
+.orgbtn a{
+    text-decoration: none;
+    color: white;
+}
+.orgbtn a:hover{
+    box-shadow: 3px 3px 10px #204148;
+}
+.orgbtn span{
+    color: #FB7013;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
