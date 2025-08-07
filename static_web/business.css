@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 90vh;
+    background-color:#155BD7;
+}
+.content{
+    padding-top: 200px;
+    margin-left: 130px;
+    width: 80%;
+    background-color: red;
+}
+.navbar{
+    padding-top: 75px;
+    margin-left: 230px;
+    display: flex;
+}
+.navbar h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 30px;
+    color:white;
+}
+.navbar button{
+    background-color: #155BD7;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    margin-left: 400px;
+}
+ul{
+    margin-left: 15px;
+    margin-top: 42px;
+    color: white;
+    display: flex;
+    list-style-type: none;   
+    gap: 30px;
+}
+.herotxt .bold{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3rem;
+    
+}
+.herotxt p{
+    color: white;
+    margin-top: 30px;
+    line-height: 23px;
+}
+.sm_para{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btns{
+    display: flex;
+}
+.getstrt{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    color:#155BD7;
+    font-weight: 800;
+    /* text-shadow: 1px -1px 1px black; */
+    border-radius: 5px;
+    border: none;
+}
+.tri{
+
+    margin-left: 20px;
+    padding: 15px;
+    background-color: white;
+    color: #155BD7;
+    border-radius: 50%;
+    border: none;
+    align-self: flex-end;
+}
+.intro a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
