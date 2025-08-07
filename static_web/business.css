@@ -14,15 +14,20 @@
     background-color: red;
 }
 .navbar{
-    padding-top: 75px;
-    margin-left: 230px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    margin-left: 70px;
     display: flex;
+    justify-content: center;
 }
 .navbar h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 2rem;
     margin-top: 30px;
     color:white;
+}
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar button{
     background-color: #155BD7;
@@ -31,7 +36,8 @@
     padding: 10px;
     border-radius: 50%;
     border: 0.5px solid white;
-    margin-left: 400px;
+    margin-left: 300px;
+    margin-right: 80px;
 }
 ul{
     margin-left: 15px;
@@ -40,6 +46,11 @@ ul{
     display: flex;
     list-style-type: none;   
     gap: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .herotxt .bold{
     font-family: Arial, Helvetica, sans-serif;
@@ -84,4 +95,9 @@ ul{
     text-decoration: none;
     padding-left: 20px;
     color: white;
+}
+.pic img{
+    margin-left: 20px;
+    height: 400px;
+    width: 450px;
 }
