@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F1F5;
+}
+h4{
+    font-family: sans-serif;
+}
+.cont{
+    margin: 150px;
+    
+    display: flex;
+    justify-content: end;
+    
+}
+.org-para{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #D63E17;
+}
