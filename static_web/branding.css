@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F1F5;
+}
+h4{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.cont{
+    /* margin: 150px; */
+    height: 450px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 70px;
+    margin-right: 260px;
+    margin-top: 50px;
+    
+}
+.org-para{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #D63E17;
+}
+.simp-para{
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.org-btn{
+    margin-top: 25px;
+    text-transform: uppercase;
+    background-color:#D63E17;
+    color: #F0F1F5;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #D63E17;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+}
+.dark {
+    /* display: flex;
+    /* flex-direction: column; */ 
+    background-color: #EB3A06;
+    align-content: center;
+    text-align: center;
+}
+.book{
+    /* display: inline-block; */
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%; 
+    width: auto;
+    margin-bottom: 25px;
+    
+}
+.head{
+    color: white;
+    font-family: sans-serif;
+}
+.mid{
+    background-color:#FA6E00;
+}
+.calen{
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.head{
+    color: white;
+    font-family: sans-serif;
+}
+.light{
+    background-color: rgba(246, 182, 63, 0.748);
+    background-color: peachpuff;
+    background-color: #FA994A;
+
+}
+.brush{
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.head{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.sub{
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+}
+.white{
+    border: none;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+    color: #D63E17;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
