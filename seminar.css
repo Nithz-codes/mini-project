@@ -20,3 +20,25 @@ body{
     background:crimson url("background.jpg")  cover no;
     /* cipsr */
 }
+
+.border{
+    margin-top: 30px;
+    width:5rem;
+    height: 5rem;
+    border: 100px solid black;
+    padding: 100px;
+    border-image: url("images.png") 20% round;
+    
+}
+.border a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    text-shadow: 3px 2px 5px red;
+    box-shadow: 5px 5px 7px blueviolet /* inset */;
+}
