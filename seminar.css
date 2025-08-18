@@ -1,0 +1,22 @@
+/* backgrounds */
+body{
+    background-color:gray;
+    
+}
+.cont{
+    background-color:cadetblue;
+    opacity: 0.7;  /* lower the value the increase in transperancy */
+}
+.img{
+    height: 700px;
+    width: 700px;
+    background-color:crimson;
+    background-image: url("background.jpg");
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: right bottom;
+    /* shorthand */
+    background:crimson url("background.jpg")  cover no;
+    /* cipsr */
+}
